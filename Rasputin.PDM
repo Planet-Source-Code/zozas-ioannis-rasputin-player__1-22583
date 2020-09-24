@@ -1,0 +1,101 @@
+[Root]
+Most Recent Package=Rasputin Setup DOKIMI 1
+
+
+[Package|Rasputin Setup DOKIMI 1|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\My Documents\Ras
+
+[Package|Rasputin Setup DOKIMI 1|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Rasputin Setup DOKIMI 1|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Rasputin Setup DOKIMI 1|Files Found]
+
+[Package|Rasputin Setup DOKIMI 1|Files Released]
+
+[Package|Rasputin Setup DOKIMI 1|Missing Dependency Information]
+C:\WINDOWS\SYSTEM\MSDXM.OCX=
+
+[Package|Rasputin Setup DOKIMI 1|Out-of-Date Dependency Information]
+
+[Package|Rasputin Setup DOKIMI 1|Files Added]
+C:\My Documents\Rasputin\Resource\Greece.wmf=
+
+[Package|Rasputin Setup DOKIMI 1|Files Removed]
+
+[Package|Rasputin Setup DOKIMI 1|Files In Project]
+C:\WINDOWS\Desktop\Rasputin.exe=Yes
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=Yes
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=Yes
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=Yes
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=Yes
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\SYSTEM\comdlg32.ocx=Yes
+C:\WINDOWS\SYSTEM\MSDXM.OCX=Yes
+C:\WINDOWS\SYSTEM\MSCOMCTL.OCX=Yes
+C:\WINDOWS\SYSTEM\Comctl32.ocx=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\My Documents\Rasputin\Resource\Greece.wmf=Yes
+
+[Package|Rasputin Setup DOKIMI 1|Configure Registry Files]
+Applicable=No
+
+[Package|Rasputin Setup DOKIMI 1|Configure Remote Servers]
+Applicable=No
+
+[Package|Rasputin Setup DOKIMI 1|Install Locations]
+C:\WINDOWS\Desktop\Rasputin.exe=$(AppPath)
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\comdlg32.ocx=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSDXM.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSCOMCTL.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\Comctl32.ocx=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\My Documents\Rasputin\Resource\Greece.wmf=$(AppPath)
+
+[Package|Rasputin Setup DOKIMI 1|Configure Shared Files]
+Applicable=Yes
+C:\WINDOWS\Desktop\Rasputin.exe=Yes
+C:\My Documents\Rasputin\Resource\Greece.wmf=No
+
+[Package|Rasputin Setup DOKIMI 1|Distribution]
+Type=single
+Size=1.44 MB
+Title=Rasputin
+
+[Package|Rasputin Setup DOKIMI 1|IconGroups]
+Group0=Rasputin
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|Rasputin Setup DOKIMI 1|Rasputin]
+Icon1=Rasputin.exe
+Title1=Rasputin
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Rasputin Setup DOKIMI 1|Package]
+PackageFolder=C:\My Documents\Ras
+ProjectFolder=C:\My Documents\Rasputin
+ServerSideCab=
+File1=C:\My Documents\Ras\setup.exe
+File2=C:\My Documents\Ras\Setup.Lst
+File3=C:\My Documents\Ras\Rasputin.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
